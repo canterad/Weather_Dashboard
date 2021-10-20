@@ -38,7 +38,7 @@ The Search section of the web page is in the HTML file and the elements in this 
 APPLICATIONS USED:
 *********************
 
-Bootstrap: I am using the bootstrap 4.3.1 css style sheet.
+Bootstrap: I am using the bootstrap 4.3.1 css style sheet.<br>
 moment: I am using moment.js version 2.24.0/moment.min.js
 
 
