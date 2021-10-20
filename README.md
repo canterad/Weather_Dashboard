@@ -1,8 +1,8 @@
 # Weather_Dashboard
 This repository was created for the Homework Assignment dealing with Server Side API's.
 
-Developer: Duane Cantera
-Date: Oct. 23, 2021
+Developer: Duane Cantera<br>
+Date: Oct. 23, 2021<br>
 Assignment: 06 Server Side API's
 
 
@@ -52,21 +52,21 @@ This project was created using JavaScript.
 Maximum Cities Enter: 
 I set the maximum value for the number of cities entered to 10.  You can see below 10 cities have been added.
 
-<img src="images/Img10Cities.jpg" width="50">
+<img src="images/Img10Cities.jpg" width="100">
 
 You can see below when a new city is added, it is added to the top and the bottom one is removed.
 
-<img src="images/Img11Cities.jpg" width="50">
+<img src="images/Img11Cities.jpg" width="100">
 
 
 How Buttons Are Added:
 Buttons are added from the top.  
 
-<img src="images/ImgOneCity.jpg" width="50">
+<img src="images/ImgOneCity.jpg" width="100">
 
 After the first one is added the additional buttons added will be added before the first one.
 
-<img src="images/ImgTwoCities.jpg" width="50">
+<img src="images/ImgTwoCities.jpg" width="100">
 
 
 *********************
