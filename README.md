@@ -62,11 +62,11 @@ You can see below when a new city is added, it is added to the top and the botto
 How Buttons Are Added:
 Buttons are added from the top.  
 
-<img src="images/ImgOneCity.jpg" height="400">
+<img src="images/ImgOneCity.jpg" height="300">
 
 After the first one is added the additional buttons added will be added before the first one.
 
-<img src="images/ImgTwoCities.jpg" height="400">
+<img src="images/ImgTwoCities.jpg" height="300">
 
 
 *********************
