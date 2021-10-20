@@ -14,8 +14,8 @@ The layout of the web page has been broken up in to two sections.  The Search se
 
 < head > - Header Section: Contains the Title: Weather Dashboard
 
-< main >
-    < section > - Search Space
+< main ><br>
+    < section > - Search Space<br>
     < section > - Search Block
 
     < section > - Right Panel
