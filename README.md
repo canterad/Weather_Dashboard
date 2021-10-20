@@ -15,8 +15,8 @@ The layout of the web page has been broken up in to two sections.  The Search se
 < head > - Header Section: Contains the Title: Weather Dashboard
 
 < main ><br>
- &nbsp;&nbsp;< section > - Search Space<br>
- &nbsp;&nbsp;< section > - Search Block
+ &nbsp;&nbsp;&nbsp;&nbsp;< section > - Search Space<br>
+ &nbsp;&nbsp;&nbsp;&nbsp;< section > - Search Block
 
     < section > - Right Panel
         < section > - Location Block
@@ -52,21 +52,21 @@ This project was created using JavaScript.
 Maximum Cities Enter: 
 I set the maximum value for the number of cities entered to 10.  You can see below 10 cities have been added.
 
-<img src="images/Img10Cities.jpg" height="250">
+<img src="images/Img10Cities.jpg" height="400">
 
 You can see below when a new city is added, it is added to the top and the bottom one is removed.
 
-<img src="images/Img11Cities.jpg" height="250">
+<img src="images/Img11Cities.jpg" height="400">
 
 
 How Buttons Are Added:
 Buttons are added from the top.  
 
-<img src="images/ImgOneCity.jpg" height="250">
+<img src="images/ImgOneCity.jpg" height="400">
 
 After the first one is added the additional buttons added will be added before the first one.
 
-<img src="images/ImgTwoCities.jpg" height="250">
+<img src="images/ImgTwoCities.jpg" height="400">
 
 
 *********************
