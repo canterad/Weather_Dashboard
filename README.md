@@ -89,7 +89,7 @@ Solution: I found that I had to create a relative parent container and then I co
 would be positioned where the parent container is located and would not move when the inline block next to it changes size.
 
 
-Issue: I need the state code value in order to get the Longitude and Latitude values for the Open Weather Geocoding API.
+Issue: I need the state code value in order to get the Longitude and Latitude values for the Open Weather Geocoding API.<br><br>
 Solution: I added a drop-down control to the search section under the city text input control.  It contains the names of all of the states
 and for each state it contains the state code value.
 
@@ -98,9 +98,9 @@ and for each state it contains the state code value.
 RESPONSIVE DESIGN ISSUES:
 ***************************
 
-I performed the following operations as the size of the screen got smaller:
-I used Flexbox technology and change the flex direction from row to column for the forecast day elements.
-I also change the width percentage values for the left and right sections of the page.
+I performed the following operations as the size of the screen got smaller:<br><br>
+I used Flexbox technology and change the flex direction from row to column for the forecast day elements.<br>
+I also change the width percentage values for the left and right sections of the page.<br>
 I also changed the font size for some of the text.
 
 
