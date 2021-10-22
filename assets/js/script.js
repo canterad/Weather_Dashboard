@@ -664,7 +664,7 @@ function PerformForecastOperation(szCity, szStateCode, bAddButton)
 
     // Call the fetch methods to get the weather forecast data.
     // This url is getting the longitude and latitude values.  Using City, State Code and country code.
-    requestUrl = "http://api.openweathermap.org/geo/1.0/direct?q=";
+    requestUrl = "https://api.openweathermap.org/geo/1.0/direct?q=";
     requestUrl += szCity + "," + szStateCode + ",US&limit=1&appid=102c7d11551160c968359fbb711b3f59";
 
     // Replace any space character with the text string "%20".
