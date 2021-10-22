@@ -69,6 +69,13 @@ After the first one is added the additional buttons added will be added before t
 <img src="images/ImgTwoCities.jpg" height="300">
 
 
+Web Page Refresh Operation:
+The button data is saved to an array.  I am saving the City Name, State Code, Button Index Position and if the weather forecast
+is currently displayed to local storage.  When the page is loaded I get the data from local storage.  If I have button data
+then I sort the array by the Button Index Position.  I display the weather forecast based on the button that has the display value
+set.
+
+
 *********************
 API's USED:
 *********************
