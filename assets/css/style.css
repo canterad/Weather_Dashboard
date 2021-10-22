@@ -1,0 +1,369 @@
+/* Universal Selector: Set the box-sizing to border-box, making the padding and border included in the width and height of a box.
+   Set all padding and margins to zero. */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Header element: Set the border, color, background image and center the text horizontally. */
+header {
+    border: solid;
+    background-image: linear-gradient(to right, rgb(52,98,187), rgb(32,10,76));    
+    color: white; 
+    text-align: center;
+}
+
+/* Main element: Set the min-height, width percentage and position it relative so the Search Block will find it as the relative parent. */
+main{
+    min-height: 850px;
+    width: 100%;
+    position:relative; 
+    top: 0; 
+    left: 0;    
+    
+}
+
+/* button element: Set styles for all of the button elements. */
+button{
+    cursor: pointer;
+    color: black;
+    background-color: lightgray; 
+    margin: 10px;
+    border: none;
+}
+
+/* button hover: Changed the opacity to 0.5 so user sees effect when the user hovers over a button. */
+button:hover{
+    opacity: 0.5; 
+}
+
+/* search_space class: Set the display to inline-block and width of 20% for section that will take up space on the left side of the main */
+/* section. */
+.search_space{
+    display: inline-block;
+    width: 20%;
+}
+
+/* search_block class: Set the search block section to use flexbox options.  Set the min-height and width values. */
+/* Position this section as absolute so it will find the main section as it relative parent. */
+.search_block{
+    display: inline-flex; 
+    flex-direction: column; 
+    align-content: flex-start;
+    flex-wrap: nowrap;
+    width: 20%;
+    min-height: 845px;
+    position: absolute; 
+    top: 0; 
+    left: 0;     
+}
+
+/* city_label class: Indent the city label by 15 pixels. */
+.city_label{
+    margin-left: 15px;
+}
+
+/* city_input class: Add space to the left and right side of the search text input control. */
+.city_input{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* state_code_label class: Adjust the relative postion of the state code label and make the text bold. */
+.state_code_label{
+    position: relative; 
+    top: 10px; 
+    left: 15px; 
+    font-weight: bold;        
+}
+
+/* state code id: Add space to the left and right side of the state drop-down control. */
+#state_code{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* search_btn class: Set the background color, text color, margin values.  Set the border value to none. */
+.search_btn{
+    background-color: rgb(80, 152, 230);
+    color: white;
+    margin: 25px 10px 10px 10px;
+    border: none;
+}
+
+/* search button hover: Changed the opacity to 0.5 so user sees effect when the user hovers over a button. */
+.search_btn:hover{
+    opacity: 0.5; 
+}
+
+/* hr element: Set the background color to black and add empty space on the left and right side. */
+hr{
+    background-color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* right_panel class: Set the min-height value, make the right panel section and inline block and set the width to 75% */
+.right_panel{
+    min-height: 845px; 
+    display: inline-block; 
+    width: 75%    
+}
+
+/* location_block class: Use flexbox options.  Create a border.  Set the min-height value and add space on the left side. */
+.location_block{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-evenly; 
+    align-content: flex-start; 
+    flex-wrap: nowrap; 
+    border: 2px solid black;
+    min-height: 200px;
+    margin-left: 5px;
+}
+
+/* loc_date id: Set the location date element to be inline. */
+#loc_date{
+    display:inline;
+}
+
+/* loc_data class: Add empty space on the left of all the location data elements. */
+.loc_data{
+    margin-left: 5px;
+}
+
+/* forecast_block class: Use flexbox options.  Set the min-height value and add space on the left and right side of the forecast block. */
+.forecast_block{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+     flex-wrap: wrap;
+    /* width: 65%; */
+    min-height: 200px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/* day_forecast_title class: Add space on the left for the forecast title element. */
+.day_forecast_title{
+    margin-left: 5px;
+}
+
+/* forecast_data class: Add empty space on the left of all the forecast data elements */
+.forecast_data{
+    margin-left: 5px;
+}
+
+/* forecast_day class: Use the flexbox options.  Set the background color and text color and the width to 15% for each forecast day element. */
+.forecast_day{
+    background-color: rgb(45,62,80);
+    color: white;
+    width: 15%;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-evenly; 
+    align-content: flex-start; 
+    flex-wrap: nowrap;     
+}
+
+/* Uvi2 class: CSS styles used for span element when UV index value is less than or equal to 2. */
+.Uvi2{
+    padding: 5px 18px 8px 15px; border-radius: 5px 5px 5px 5px; 
+    background-color: green;
+    color: white;
+}
+
+/* Uvi5 class: CSS styles used for span element when UV index value is less than or equal to 5. */
+.Uvi5{
+    padding: 5px 18px 8px 15px; border-radius: 5px 5px 5px 5px; 
+    background-color: yellow;
+    color: black;
+}
+
+/* Uvi7 class: CSS styles used for span element when UV index value is less than or equal to 7. */
+.Uvi7{
+    padding: 5px 18px 8px 15px; border-radius: 5px 5px 5px 5px; 
+    background-color: orange;
+    color: white;
+}
+
+/* Uvi10 class: CSS styles used for span element when UV index value is less than or equal to 10. */
+.Uvi10{
+    padding: 5px 18px 8px 15px; border-radius: 5px 5px 5px 5px; 
+    background-color: red;
+    color: white;
+}
+
+/* Uvi11 class: CSS styles used for span element when the UV index value is greater than or equal to 11. */
+.Uvi11{
+    padding: 5px 18px 8px 15px; border-radius: 5px 5px 5px 5px; 
+    background-color: violet;
+    color: white;
+}
+
+/**********************************************************************************************************
+* MEDIA QUERY SECTION * If the screen is less than or equal to the pixel size then apply these css rules.
+**********************************************************************************************************/
+/* Change the font size for the city label. */
+@media screen and (max-width: 1200px){
+    .city_label{
+        font-size: 24px;
+    }
+}
+
+/* Change the font size of the city label. */
+@media screen and (max-width: 1075px){
+    .city_label{
+        font-size: 22px;
+    }
+}
+
+/* Change the font size of the city label. */
+@media screen and (max-width: 1000px){
+    .city_label{
+        font-size: 20px;
+    }
+}
+
+/* Change the font size for the forecast data. */
+@media screen and (max-width: 950px){
+    .forecast_data{
+        font-size: 16px;
+    }        
+}
+
+/* Change the font size of the city and state labels.*/
+@media screen and (max-width: 900px){
+    .city_label{
+        font-size: 18px;
+    }
+
+    .state_code_label{
+        font-size: 14px;
+    }    
+}
+
+/* Change the font size of the city and state labels. */
+@media screen and (max-width: 825px){
+    .city_label{
+        font-size: 16px;
+    }
+
+    .state_code_label{
+        font-size: 12px;
+    }        
+}
+
+/* Change the font size for the forecast data. */
+@media screen and (max-width: 750px){
+    .forecast_data{
+        font-size: 14px;
+    }  
+}
+
+/* Change the width of the search block and the right panel. Change the flex direction to column for the forecast block. */
+/* Change the width and bottom margin for the forecast day elements. */
+@media screen and (max-width: 700px){
+    .right_panel{
+        width: 65%    
+    }
+ 
+    .search_space{
+        width: 30%;
+    }
+    
+    .search_block{
+        width: 30%;
+    }
+
+    .forecast_block{
+        flex-direction: column;
+        justify-content: space-evenly; 
+        align-content: flex-start; 
+        flex-wrap: nowrap;             
+    }
+
+    .forecast_day{
+        width: 65%;
+        margin-bottom: 5px;
+    }
+}
+
+/* Change the width of the search block and the right panel. */
+@media screen and (max-width: 550px){
+    .right_panel{
+        width: 55%    
+    }
+
+    .search_space{
+        width: 40%;
+    }
+    
+    .search_block{
+        width: 40%;
+    }
+}
+
+/* Change the font size of the location date and the forecast data. */
+@media screen and (max-width: 410px){
+    #loc_date{
+        font-size: 20px;
+    }
+
+    .forecast_data{
+        font-size: 12px;
+    }    
+}
+
+/* Change the width of the search block and the right panel. */
+@media screen and (max-width: 400px){
+    .right_panel{
+        width: 45%    
+    }
+ 
+    .search_space{
+        width: 50%;
+    }
+    
+    .search_block{
+        width: 50%;
+    }
+}
+
+/* Change the font values for the location data, forecast dates, city and state labels. */
+@media screen and (max-width: 275px){
+    #loc_date{
+        font-size: 14px;
+    }
+
+    .forecast_data{
+        font-size: 10px;   
+    } 
+
+    .city_label{
+        font-size: 14px;
+    }   
+    
+    .state_code_label{
+        font-size: 10px;
+    }     
+}
+
+/* Change the font size of the city label. */
+@media screen and (max-width: 250px){
+    .city_label{
+        font-size: 12px;
+    }        
+}
+
+/* Change the font size of the location date and the forecast data. */
+@media screen and (max-width: 210px){
+    #loc_date{
+        font-size: 12px;
+    }
+
+    .forecast_data{
+        font-size: 8px;   
+    } 
+}
