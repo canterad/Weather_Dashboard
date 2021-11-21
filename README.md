@@ -1,4 +1,4 @@
-# Weather_Dashboard
+# Weather Dashboard
 This repository was created for the Homework Assignment dealing with Server Side API's.
 
 Developer: Duane Cantera<br>
